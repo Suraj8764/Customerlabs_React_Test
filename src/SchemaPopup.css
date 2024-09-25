@@ -1,0 +1,99 @@
+.popup {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .popup-inner {
+    background: white;
+    width: 400px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  h3 {
+    color: #2C7873;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .form-field {
+    margin-bottom: 20px;
+  }
+  
+  .form-field label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  input[type="text"], select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+  }
+  
+  .add-new-schema {
+    color: #1B95E0;
+    font-size: 14px;
+    text-decoration: none;
+  }
+  
+  .add-new-schema:hover {
+    text-decoration: underline;
+  }
+  
+  .selected-schemas {
+    margin-bottom: 20px;
+  }
+  
+  .schema-item {
+    padding: 8px;
+    background-color: #F0F4F8;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 5px;
+  }
+  
+  .button-group {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .save-btn, .cancel-btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  
+  .save-btn {
+    background-color: #28A745;
+    color: white;
+  }
+  
+  .cancel-btn {
+    background-color: #DC3545;
+    color: white;
+  }
+  
+  .save-btn:hover {
+    background-color: #218838;
+  }
+  
+  .cancel-btn:hover {
+    background-color: #C82333;
+  }
+  
